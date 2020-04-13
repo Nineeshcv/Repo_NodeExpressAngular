@@ -1,0 +1,53 @@
+<h1>Employee List</h1>
+
+<table border="1" style="border-color: blue;">
+
+    <tr>
+        <th>EmployeeId</th>
+        <th> Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+        <td>{{emp.id}}</td>
+        <td>{{emp.empName}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.salary}}</td>
+    </tr>
+</table>
+<h2>Employee List from the file</h2>
+
+<table border="1" style="border-color: blue;">
+
+    <tr>
+        <th>EmployeeId</th>
+        <th> Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+    </tr>
+    <tr *ngFor="let emp of empListfromService">
+        <td>{{emp.id}}</td>
+        <td>{{emp.empName}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.salary}}</td>
+    </tr>
+</table>
+
+<h1>Profiles  from the API : Printing</h1>
+<h2>This is Profile Id: {{profile?.id  +","+(profile)?.name+","+profile?.age}}</h2>
+<table border="1" style="border-color: blue;">
+
+    <tr>
+        <th>EmployeeId</th>
+        <th> Name</th>
+        <th>Age</th>
+        <th>Salary</th>
+    </tr>
+    <tr *ngFor="let emp of profiles">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.age}}</td>
+        <td>{{emp.salary}}</td>
+    </tr>
+</table>
+

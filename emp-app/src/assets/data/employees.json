@@ -1,0 +1,9 @@
+[
+    { "id" : 10, "empName": "John", "age": 34, "salary" : 20000},
+    { "id" : 20, "empName": "Ajith", "age": 24, "salary" : 2000},
+    { "id" : 30, "empName": "Anil", "age": 32, "salary" : 20000},
+    { "id" : 40, "empName": "Renu", "age": 33, "salary" : 30000},
+    { "id" : 50, "empName": "CV", "age": 34, "salary" : 200000},
+    { "id" : 60, "empName": "Vishnu", "age": 34, "salary" : 20000}
+
+]
